@@ -25,7 +25,7 @@ class Config:
     # Find the appropriate xpath with Chrome Inspect Element
     term_xpath = '//*[@id="TERM_GRID$0_row_1"]'
     # How often, in seconds, TigerHub will be checked
-    refresh_frequency = 600
+    refresh_frequency = 3600
 
     # / Database settings /
     use_database = True
